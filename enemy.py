@@ -1,7 +1,7 @@
 import pygame
 import random
 
-
+ # This is an Enemy Class that can be reused in many places
 class Enemy(pygame.sprite.Sprite):
     def __init__(self, SCREEN_WIDTH, y, sprite_sheet, scale):
         pygame.sprite.Sprite.__init__(self)
